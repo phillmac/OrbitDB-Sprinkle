@@ -1,0 +1,23 @@
+{
+  "name": "orbit-db-dashboard",
+  "version": "1.0.0",
+  "description": "OrbitDB Dashboard Userfrosting Sprinkle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillmac/orbit-db-dashboard.git"
+  },
+  "author": "Phillip Mackintosh <phillmackintosh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phillmac/orbit-db-dashboard/issues"
+  },
+  "homepage": "https://github.com/phillmac/orbit-db-dashboard#readme",
+  "dependencies": {
+    "js-logger": "^1.6.0",
+    "orbit-db": "^0.22.0-rc4"
+  }
+}
