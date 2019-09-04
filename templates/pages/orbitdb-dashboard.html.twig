@@ -1,0 +1,30 @@
+{% extends "pages/abstract/dashboard.html.twig" %}
+
+{# Overrides blocks in head of base template #}
+{% block page_title %}{{ translate("DASHBOARD")}}{% endblock %}
+
+{% block page_description %}{{ translate("DASHBOARD")}}{% endblock %}
+
+{% block stylesheets_page %}
+    <!-- Page-specific CSS asset bundle -->
+    {{ assets.css('css/form-widgets') | raw }}
+    {# {{ assets.css('css/pages/orbitdb-dashboard') | raw }} #}
+
+{% endblock %}
+
+{% block body_matter %}
+
+{% endblock %}
+
+{% block scripts_page %}
+    <!-- Include page variables -->
+    <script>
+    {% include "pages/partials/page.js.twig" %}
+    </script>
+
+    <!-- Include form widgets JS -->
+    {{ assets.js('js/form-widgets') | raw }}
+
+    <!-- Include page-specific JS -->
+    {{ assets.js('js/pages/orbitdb-dashboard') | raw }}
+{% endblock %}

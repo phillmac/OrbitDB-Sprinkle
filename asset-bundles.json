@@ -1,0 +1,19 @@
+{
+    "bundle": {
+        "js/orbitdb-dashboard": {
+            "scripts" : [
+                "vendor/js-logger/src/logger.min.js",
+                "vendor/empty-promise/lib/index.js",
+                "vendor/node_modules/ipfs/dist/index.min.js",
+                "vendor/orbit-db/dist/orbitdb.min.js"
+            ],
+            "options": {
+                "result": {
+                    "type": {
+                        "scripts": "plain"
+                    }
+                }
+            }
+        }
+    }
+}
