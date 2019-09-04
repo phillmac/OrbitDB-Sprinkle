@@ -1,0 +1,30 @@
+{
+    "name": "orbitdb/orbit-db-sprinkle",
+    "description": "OrbitDb Dashboard Sprinkle for Userfrosting",
+    "type": "userfrosting-sprinkle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phillip Mackintosh",
+            "email": "phill@peelvalley.com.au"
+        }
+    ],
+    "repositories": {
+        "phillmac.orbit-db-http-client": {
+            "type": "git",
+            "url": "https://github.com/phillmac/php-orbit-db-http-client"
+        },
+        "phillmac.sse-client": {
+            "type": "git",
+            "url": "https://github.com/phillmac/php-sse-client"
+        }
+    },
+    "require": {
+        "phillmac/orbit-db-http-client": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "UserFrosting\\Sprinkle\\OrbitDB\\": "src/"
+        }
+    }
+}
