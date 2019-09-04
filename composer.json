@@ -1,6 +1,6 @@
 {
-    "name": "orbitdb/orbit-db-sprinkle",
-    "description": "OrbitDb Dashboard Sprinkle for Userfrosting",
+    "name": "orbitdb/orbit-db-dashboard",
+    "description": "OrbitDb Dashboard Userfrosting Sprinkle",
     "type": "userfrosting-sprinkle",
     "license": "MIT",
     "authors": [
