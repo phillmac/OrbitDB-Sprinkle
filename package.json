@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/phillmac/orbit-db-dashboard#readme",
   "dependencies": {
+    "empty-promise": "^1.2.0",
     "ipfs": "^0.37.1",
     "js-logger": "^1.6.0",
     "orbit-db": "^0.22.0-rc4"
