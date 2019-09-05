@@ -1,6 +1,6 @@
 {
     "bundle": {
-        "js/orbitdb-dashboard": {
+        "js/pages/orbitdb-dashboard": {
             "scripts" : [
                 "vendor/js-logger/src/logger.min.js",
                 "vendor/empty-promise/lib/index.js",
